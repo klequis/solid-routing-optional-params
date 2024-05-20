@@ -10,8 +10,11 @@ export default function App() {
         <div class="component background-purple">
           <div class="file-name">app.tsx</div>
           <div class="my-background">My background is purple.</div>
-          <a class="button-1" href="/">/index</a>
-          <a class="button-1" href="/about">/about</a>
+          <a class="button-1" href="/">/</a>
+          <a class="button-1" href="/optional-param">/optional-param</a>
+          <a class="button-1" href="/optional-param/3">/optional-param/3</a>
+          <a class="button-1" href="/just-catch-all">/just-catch-all</a>
+          <a class="button-1" href="/just-catch-all/3">/just-catch-all/3</a>
           <Suspense>{props.children}</Suspense>
         </div>
       )}
